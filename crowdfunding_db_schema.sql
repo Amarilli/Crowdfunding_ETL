@@ -1,8 +1,4 @@
-﻿-- Exported from QuickDBD: https://www.quickdatabasediagrams.com/
--- Link to schema: https://app.quickdatabasediagrams.com/#/d/T7ovl7
--- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
-
-
+﻿
 CREATE TABLE "category" (
     "category_id" VARCHAR(10)   NOT NULL,
     "category" VARCHAR(50)   NOT NULL,
