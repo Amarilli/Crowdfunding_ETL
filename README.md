@@ -8,15 +8,16 @@
 
 ## Summary
 
-Our group built an ETL pipeline using Python, Pandas, Python dictionary methods, and regular expressions to extract and 
+Our group built an ETL pipeline using Python, Pandas, Python dictionary methods, and regular expressions to extract and transform the data. 
 
-transform the data. 
-
-Also, we created four CSV files and used them to create an ERD and a table schema. 
+We created [four CSV files](https://github.com/Amarilli/Crowdfunding_ETL/tree/main/Resources) and used them to create an [ERD](https://github.com/Amarilli/Crowdfunding_ETL/blob/main/Images/QuickDBD_diagram_Crowdfunding.png) and a [table schema](https://github.com/Amarilli/Crowdfunding_ETL/blob/main/crowdfunding_db_schema.sql). 
 
 Finally, we uploaded the CSV file data into a Postgres database.
 
 ### Part 1
+
+We extracted and transformed the `crowdfunding.xlsx` Excel data to create a [category DataFrame](https://github.com/Amarilli/Crowdfunding_ETL/blob/main/Resources/category.csv) that has a "category_id" column that has entries going sequentially from "cat1" to "catn", where n is the number of unique categories, and a "category" column that contains only the category titles.
+
 
 ### Part 2
 
